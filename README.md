@@ -1,4 +1,4 @@
-# ApexPC - Stwórz swój wymarzony komputer!
+# ApexPC™ - Stwórz swój wymarzony komputer!
 
 ### Do czego strona została stworzona:
 -----------------------------------------
@@ -16,3 +16,5 @@
 - Wiktor Sarnacki: Odpowiada za CSS'a strony
 - Samuel Piekarski: Odpowiedzialny za bazę danych i rzeczy z tym związane
 - Miłosz Radkiewicz: Odpowiada za HTML'a strony
+
+###### All rights reserved. ApexPC™, made in Poland

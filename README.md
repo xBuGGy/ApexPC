@@ -1,4 +1,4 @@
-# ApexPC ## - Stwórz swój wymarzony komputer!
+# ApexPC - Stwórz swój wymarzony komputer!
 
 ### Do czego strona została stworzona:
 -----------------------------------------

@@ -1,0 +1,78 @@
+body {
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    text-align: center;
+    background-image: url('img/Grafika_bez_nazwy\ \(1\).png');
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 15px;
+    background-color: white;
+    height: 450px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #3f72df;
+}
+
+.active {
+    background-color: #5279f8;
+}
+
+.active:hover {
+    background-color: #3c58b4;
+}
+
+
+@media screen and (max-width: 700px) {
+    #obz {
+        width: 402.5px;
+        height: 188px;
+    }
+}
+
+.button {
+    padding: 15px 20px;
+    color: rgb(255, 255, 255);
+    background-color: #5279f8;
+    border-radius: 5px;
+    border-width: 30%;
+    margin: 10px;
+}
+
+.button:hover {
+    background-color: #3c58b4;
+}

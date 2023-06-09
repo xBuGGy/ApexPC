@@ -1,11 +1,11 @@
 CREATE TABLE users (
-    userID int(11) AUTO_INCEMENT PRIMARY KEY,
+    userID int(11) AUTO_INCREMENT PRIMARY KEY,
     userName varchar(64),
     email varchar(64),
     password varchar(64)
 );
 CREATE TABLE Panel (
-    Panelid int(11) AUTO_INCEMENT PRIMARY KEY,
+    Panelid int(11) AUTO_INCREMENT PRIMARY KEY,
     CPU varchar(128),
     GPU varchar(128),
     WielkoscDysku varchar(128)

@@ -1,5 +1,5 @@
 CREATE TABLE users (
-	userName varchar(64),
+    userName varchar(64),
     email varchar(64),
     password varchar(64)
 );

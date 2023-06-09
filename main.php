@@ -24,7 +24,7 @@
         </ul>
     </div>
     <div id="id1">
-        <img id="obz" src="img/Grafika_bez_nazwy (1).png" alt="logo">
+        <img id="obz" src="IMG/Grafika_bez_nazwy (1).png" alt="logo">
         </br></br></br>
     </div>
 
@@ -58,11 +58,11 @@
         <ul id="tk">
 
             <a id="kontakt"></a>
-            <ol id="kontakt"><img id="dc" src="discord.png" alt="ikona Discord"></ol>
+            <ol id="kontakt"><img id="dc" src="IMG/discord.png" alt="ikona Discord"></ol>
             <ol id="kontakt">ApexPC#0000</ol>
-            <ol id="kontakt"><img src="poczta.png" alt="ikona poczty"></ol>
+            <ol id="kontakt"><img src="IMG/poczta.png" alt="ikona poczty"></ol>
             <ol id="kontakt">kontakt@apexpc.pl</ol>
-            <ol id="kontakt"><img id="tel" src="telefon.png" alt="ikona telefonu"></ol>
+            <ol id="kontakt"><img id="tel" src="IMG/telefon.png" alt="ikona telefonu"></ol>
             <ol id="kontakt">(+48) 666 777 666</ol>
         </ul>
         <p>ApexPC&trade;, Made in Poland</p>

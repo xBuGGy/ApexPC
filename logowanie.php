@@ -20,7 +20,7 @@ if (isset($_SESSION["user"])) {
 <body>
     <div id="tab">
         <ul id="banner">
-            <li style="float:left"><a class="active" href="projekt.php">Strona główna</a></li>
+            <li style="float:left"><a class="active" href="main.php">Strona główna</a></li>
         </ul>
     </div>
     <div id="id1">

@@ -1,0 +1,11 @@
+CREATE TABLE users (
+	userName varchar(64),
+    email varchar(64),
+    password varchar(64)
+);
+CREATE TABLE Panel (
+    Panelid int AUTO_INCREMENT,
+    CPU varchar(128),
+    GPU varchar(128),
+    WielkoscDysku varchar(128)
+);

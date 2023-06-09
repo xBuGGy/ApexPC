@@ -6,25 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ApexPC</title>
-    <link rel="icon" type="image/x-icon" href="Grafika_bez_nazwy (1).png">
+    <link rel="icon" type="image/x-icon" href="apexLogo.png">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <header>
-        
-    </header>
-    <div id="tab">
-        <ul id="banner">
+    <header class="header">
+		<h1 class="logo"><a href="main.php">ApexPC&trade;</a></h1>
+          <ul class="main-nav">
             <li><a href="#onas">O nas</a></li>
             <li><a href="#kontakt">Kontakt</a></li>
-            <li style="float:right"><a class="active" href="logowanie.php">Logowanie</a></li>
-            <li style="float:right"><a href="rejestracja.php">Rejestracja</a></li>
-        </ul>
-    </div>
+            <li><a href="#zamowienia">Zamówienia</a></li>
+            <li><a href="logowanie.php">Logowanie</a></li>
+            <li><a href="rejestracja.php">Rejestracja</a></li>
+      </ul>
+	</header> 
     <div id="id1">
-        <img id="obz" src="IMG/Grafika_bez_nazwy (1).png" alt="logo">
+        <img id="obz" src="img/apexLogo.png" alt="logo">
         </br></br></br>
     </div>
 
@@ -53,16 +52,48 @@
         atmosferę i motywuje do projektu, chociaż czasem brak mu zaangażowania.</br>
     </div><br></br></br></br></br></br></br></br></br></br>
 
+    <div id="zamowienia">
+        <a id="zamowienia"></a>
+        <h1>Lista zamówień:</h1></br>
+
+        <?php
+        $conn = mysqli_connect("localhost", "root", "", "ApexDB");
+
+        $sql = "SELECT * FROM panel";
+
+        $result = $conn->query($sql);
+
+        echo "<table>";
+        echo "<tr><th>CPU</th><th>GPU</th><th>Wielkość dysku</th></tr>";
+
+        while($row = mysqli_fetch_array($result, MYSQLI_ASSOC))
+        {   
+
+            echo "<tr><td>";
+            echo $row['cpu'];
+            echo "</td><td>";
+            echo $row['gpu'];
+            echo "</td><td>";
+            echo $row['dysk'];
+            echo "</td></tr>";
+        }
+
+        echo "</table>"
+
+        ?>
+
+    </div><br></br></br></br></br></br></br></br></br></br>
+
     <footer>
         <h1 id="kontakta">Kontakt</h1>
         <ul id="tk">
 
             <a id="kontakt"></a>
-            <ol id="kontakt"><img id="dc" src="IMG/discord.png" alt="ikona Discord"></ol>
+            <ol id="kontakt"><img id="dc" src="img/discord.png" alt="ikona Discord"></ol>
             <ol id="kontakt">ApexPC#0000</ol>
-            <ol id="kontakt"><img src="IMG/poczta.png" alt="ikona poczty"></ol>
+            <ol id="kontakt"><img src="img/poczta.png" alt="ikona poczty"></ol>
             <ol id="kontakt">kontakt@apexpc.pl</ol>
-            <ol id="kontakt"><img id="tel" src="IMG/telefon.png" alt="ikona telefonu"></ol>
+            <ol id="kontakt"><img id="tel" src="img/telefon.png" alt="ikona telefonu"></ol>
             <ol id="kontakt">(+48) 666 777 666</ol>
         </ul>
         <p>ApexPC&trade;, Made in Poland</p>

@@ -1,18 +1,3 @@
-.container {
-    max-width: 600px;
-    margin: 0 auto;
-    margin-top: 50px;
-    padding: 50px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 15px;
-    background-color: white;
-    height: 450px;
-}
-
-.form-group {
-    margin-bottom: 30px;
-}
-
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
@@ -20,11 +5,13 @@
 
 body {
     background: none;
+    color: #f4f4f4;
 }
 
 html {
     text-align: center;
     background-image: url('img/bg.png');
+    color: #f4f4f4;
 }
 
 footer {
@@ -39,6 +26,11 @@ footer {
     width: 30%;
     padding: 20px;
 }
+
+label {
+    color: rgb(255, 255, 255);
+}
+
 
 ul {
     list-style-type: none;
@@ -141,7 +133,9 @@ a {
     color: #5279f8;
 }
 
-
+#butus {
+    color: #f4f4f4;
+}
 
 .header {
     padding-top: .5em;

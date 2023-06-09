@@ -12,19 +12,21 @@ if (isset($_SESSION["user"])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ApexPC</title>
-    <link rel="icon" type="image/x-icon" href="Grafika_bez_nazwy (1).png">
+    <link rel="icon" type="image/x-icon" href="apexLogo.png">
     <link rel="stylesheet" href="register.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <div id="tab">
-        <ul id="banner">
-            <li style="float:left"><a class="active" href="main.php">Strona główna</a></li>
-        </ul>
-    </div>
+    <header class="header">
+		<h1 class="logo"><a href="main.php">ApexPC&trade;</a></h1>
+          <ul class="main-nav">
+            <li><a href="logowanie.php">Logowanie</a></li>
+            <li><a href="rejestracja.php">Rejestracja</a></li>
+      </ul>
+	</header> 
     <div id="id1">
-        <img id="obz" src="img/Grafika_bez_nazwy (1).png" alt="logo">
+        <img id="obz" src="img/apexLogo.png" alt="logo">
         </br></br></br>
     </div>
     <div class="container">
@@ -101,7 +103,6 @@ if (isset($_SESSION["user"])) {
         <div>
         <div>
             <p>Masz już konto? <a href="logowanie.php">Zaloguj się tutaj!</a></p>
-    </br>
             <p><a href="main.php"><i class="fa-solid fa-house"></i>Strona główna</a></p>
         </div>
         </div>
